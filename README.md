@@ -1,8 +1,24 @@
-# React + Vite
+# React JS Modern 3D Portfolio using Three.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![main](https://github.com/shahid704/3D_developer_portfolio/assets/68416468/b3c283a3-beed-4f8b-b084-5931341b5301)
 
-Currently, two official plugins are available:
+### An outstanding and impressive 3D Developer Portfolio website using React, 3D-graphics and animations with ThreeJS and Framer Motion,  and TailwindCSS!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- TechStack -->
+### :space_invader: Tech Stack
+
+[![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,threejs)](https://skillicons.dev)
+
+
+
+
+<!-- Acknowledgments -->
+## :gem: Acknowledgements
+
+This section used to mention useful resources and libraries that used in 3D Portfolio
+
+ - [Email JS](https://www.emailjs.com/)
+ - [Framer Motion](https://www.framer.com/motion/)
+ - [React Tilt](https://www.npmjs.com/package/react-tilt)
+ - [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
+ - #JSMastery
