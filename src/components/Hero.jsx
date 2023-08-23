@@ -24,7 +24,7 @@ const Hero = () => {
         <span>I develop </span>
         <TypeAnimation
           cursor={false}
-          className={"text-[#915eff]"}
+          className={"text-white"}
           sequence={[
             ' Web Applications',
             500,
@@ -39,7 +39,7 @@ const Hero = () => {
           repeat={0}
         />
         {displayText && ( // Render the following only when displayText is true
-          <span className="text-[#915eff]">
+          <span className="text-white">
             Web Applications, Desktop
             <br className="sm:block hidden"/>
             {' '}Applications and User Interfaces
