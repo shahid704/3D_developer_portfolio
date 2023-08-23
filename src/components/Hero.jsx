@@ -21,7 +21,7 @@ const Hero = () => {
           Hi, I'm <span className='text-[#915EFF]'>Shahid</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        <span>I develop</span>
+        <span>I develop </span>
         <TypeAnimation
           cursor={false}
           className={"text-[#915eff]"}
@@ -42,7 +42,7 @@ const Hero = () => {
           <span className="text-[#915eff]">
             Web Applications, Desktop
             <br className="sm:block hidden"/>
-            Applications and User Interfaces
+            {' '}Applications and User Interfaces
           </span>
         )}
       </p>
