@@ -187,10 +187,6 @@ import {
       points: [
         "I am a proud holder of a Bachelor of Science degree in Computer Science from Patkar-Varde College",
         "This comprehensive program equipped me with a strong foundation in algorithm design, data structures, object-oriented programming, and web development technologies.",
-        "This academic journey not only equipped me with a robust understanding of the sciences but also instilled in me a passion for applying analytical skills to real-world challengesThrough hands-on projects and expert guidance, I honed practical skills in Java, Python, and JavaScript.",
-        " My BSc degree reflects my commitment to excellence and fuels my enthusiasm for contributing to impactful technology solutions.",
-        
-
         
       ],
     },
@@ -206,9 +202,7 @@ import {
       points: [
         "I completed my higher secondary education in the science stream, encompassing both 11th and 12th grades, at Patkar-Varde College.",
         "A period during which I deepened my knowledge in scientific principles and cultivated a strong foundation in critical thinking and problem-solving",
-        "This academic journey not only equipped me with a robust understanding of the sciences but also instilled in me a passion for applying analytical skills to real-world challenges.",
-        
-
+       
         
       ],
     },
@@ -223,9 +217,6 @@ import {
       points: [
         "I completed my secondary education at Map Khan High School",
         "Where I cultivated a strong foundation in academic excellence and personal growth",
-        "During my time there, I actively engaged in a diverse range of subjects, honing critical thinking,",
-        "time management, and effective communication skills.",
-
         
       ],
     },
