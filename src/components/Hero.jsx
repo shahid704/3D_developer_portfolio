@@ -41,7 +41,7 @@ const Hero = () => {
         {displayText && ( // Render the following only when displayText is true
           <span className="text-[#915eff]">
             Web Applications, Desktop
-            <br />
+            <br className="sm:block hidden"/>
             Applications and User Interfaces
           </span>
         )}
