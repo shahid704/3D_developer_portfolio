@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
-
+import { TypeAnimation } from 'react-type-animation'; 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useState } from "react";
 
 const Hero = () => {
+  const [displayText, setDisplayText] = useState(false);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -19,9 +21,33 @@ const Hero = () => {
           Hi, I'm <span className='text-[#915EFF]'>Shahid</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop User interfaces 
-          and web applications
-        </p>
+        <span>I develop</span>
+        <TypeAnimation
+          cursor={false}
+          className={"text-[#915eff]"}
+          sequence={[
+            ' Web Applications',
+            500,
+            ' Desktop Applications',
+            500,
+            ' User Interfaces',
+            500,
+            ' ',
+            100,
+            () => setDisplayText(true),
+          ]}
+          repeat={0}
+        />
+        {displayText && ( // Render the following only when displayText is true
+          <span className="text-[#915eff]">
+            Web Applications, Desktop
+            <br />
+            Applications and User Interfaces
+          </span>
+        )}
+      </p>
+
+
       </div>
     </div>
 
